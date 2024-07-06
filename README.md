@@ -4,7 +4,7 @@
 [![ci](https://github.com/fluentci-io/shell-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/fluentci-io/shell-plugin/actions/workflows/ci.yml)
 
 
-This plugin allows you to run shell commands in your FluentCI pipeline.
+This plugin allows you to run shell commands in your [FluentCI](https://fluentci.io) pipeline.
 
 ## 🚀 Usage
 
