@@ -1,0 +1,11 @@
+[package]
+name = "shell-plugin"
+version = "0.1.0"
+description = "Shell plugin for FluentCI"
+license = "MIT"
+keywords = [
+  "shell"
+]
+authors = [
+  "Tsiry Sandratraina <tsiry.sndr@fluentci.io>"
+]
