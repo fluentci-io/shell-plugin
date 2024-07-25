@@ -22,3 +22,5 @@ jobs:
           args: |
             fish echo "Hello, world!"
           working-directory: example
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
