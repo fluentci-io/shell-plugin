@@ -24,6 +24,7 @@ jobs:
           plugin: .
           args: |
             fish echo "Hello, world!"
+            nu which nu
           working-directory: example
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}

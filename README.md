@@ -21,6 +21,7 @@ fluentci run --wasm shell fish echo "Hello, World!"
 | bash   | Run bash commands                         |
 | fish   | Run fish commands                         |
 | zsh    | Run zsh commands                          |
+| nu     | Run nushell commands                      |
 
 ## Code Usage
 
@@ -38,7 +39,7 @@ use fluentci_pdk::dag;
 
 // ...
 
-dag().call("https://pkg.fluentci.io/shell@v0.1.0?wasm=1", "bash", vec!["echo 'Hello, World!'"])?;
+dag().call("https://pkg.fluentci.io/shell@v0.1.1?wasm=1", "bash", vec!["echo 'Hello, World!'"])?;
 ```
 
 ## 📚 Examples

@@ -27,3 +27,18 @@ pub fn zsh(args: String) -> FnResult<String> {
         .stdout()?;
     Ok(stdout)
 }
+
+#[plugin_fn]
+pub fn nu(args: String) -> FnResult<String> {
+    let stdout = dag()
+        .pkgx()?
+        .with_exec(vec![
+            "pkgx",
+            "+nushell.sh",
+            "nu",
+            "-c",
+            &format!("'{}'", args),
+        ])?
+        .stdout()?;
+    Ok(stdout)
+}
